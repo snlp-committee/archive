@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document of snlp4*/
+
+body{
+    margin:1em 1em 4em 1em;
+}
+
+table{
+    border: black solid 0px;
+    width: 98%;
+}
+
+table.date{
+    border: black solid 0px;
+    width: 40em;
+}
+
+tr{
+    border: black solid 1px;
+}
+
+td{
+    border: black solid 1px;
+}
+
+ul{
+    line-height:1.0em;
+}
+
+li>div.right{
+    text-align:right;
+    margin-right:1em;
+}
+
+p {
+    text-indent:1em;
+    margin:1em;
+}

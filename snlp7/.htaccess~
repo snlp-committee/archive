@@ -1,0 +1,7 @@
+Options +ExecCGI
+AddType application/x-httpd-cgi .cgi .html .js .cs
+AuthUserFile /home/hassy/public_html/snlp7/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and Password"
+AuthType Basic
+require valid-user

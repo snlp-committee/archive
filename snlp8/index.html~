@@ -1,0 +1,351 @@
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>第8回最先端NLP勉強会（SNLP 2016）</title>
+    <link rel="stylesheet" href="css/snlp.css" type="text/css"/>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/snlp.js"></script>
+  </head>
+  <body>
+    <h1>第8回最先端NLP勉強会（SNLP 2016）</h1>
+
+    <h2>開催案内</h2>
+    <table id="date">
+      <tr>
+	<td><b>日時</b></td>
+	<td>2016年9月11日(日)～2016年9月12日(月)</td>
+      </tr>
+      <tr>
+	<td><b>会場</b></td>
+	<td>
+	  11日：<a href="http://about.smartnews.com/ja/about" target="_blank">スマートニュース株式会社 イベントスペース</a>
+	  <a href="https://www.google.co.jp/maps/dir//%E3%80%92150-0001+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E7%A5%9E%E5%AE%AE%E5%89%8D%EF%BC%96%E4%B8%81%E7%9B%AE%EF%BC%92%EF%BC%95%E2%88%92%EF%BC%91%EF%BC%96/@35.6655435,139.7005326,17z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x60188ca5dd78ba8d:0xa10abdc95d9aaeff!2m2!1d139.7026784!2d35.6655435!3e1?hl=ja" target="_blank">〒150-0001 東京都渋谷区神宮前6-25-16 神宮前第23ビル 2F（地図）</a><br />
+	  12日：<a href="http://www.u-tokyo.ac.jp/campusmap/cam01_04_03_j.html" target="_blank">東京大学本郷キャンパス 工学部2号館4階246講義室</a>
+	  <a href="https://www.google.co.jp/maps/place/%E3%80%92113-0033+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%87%E4%BA%AC%E5%8C%BA%E6%9C%AC%E9%83%B7%EF%BC%97%E4%B8%81%E7%9B%AE%EF%BC%93+%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%9C%AC%E9%83%B7%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9%E5%B7%A5%E5%AD%A6%E9%83%A8%EF%BC%92%E5%8F%B7%E9%A4%A8/@35.7142511,139.7596641,17z/data=!3m1!4b1!4m5!3m4!1s0x60188c31ccfe03e1:0x3d9424d7feac6c9f!8m2!3d35.7142286!4d139.7619335" target="_blank">〒113-8656 東京都文京区本郷7-3-1（地図）</a>
+	</td>
+      </tr>
+      <tr>
+	<td><b>参加費</b></td>
+	<td>300円</td>
+      </tr>
+      <tr>
+	<td><b>懇親会</b></td>
+	<td>11日 スマートニュース株式会社 イベントスペース</td>
+      </tr>
+    </table>
+
+    <h2>概要</h2>
+    <p>自然言語処理分野におけるトップジャーナル・トップカンファレンスであるTACL （直近1年）、ACL 2016、NAACL 2016、EMNLP 2015の論文の中から、参加者の投票によって厳選した論文を、各参加者が紹介する勉強会です。
+      勉強会の参加者は、各自1～2本の論文を担当し、全体で30本程度の論文の紹介をします。
+      第1回目は1研究室のメンバーを中心とした会でしたが、第2回目より、研究室の枠を超え、東京近郊の様々な研究室の学生・研究者有志一同による勉強会として開催しております。
+      このイベントを通じて、研究者間の活発な情報交換・意見交換・交流が行われ、今後の研究に活かされることを本勉強会の狙いとしています。</p>
+
+    <h3>過去の勉強会の様子</h3>
+    <img src="./images/1.jpg" width="300" height="200" alt="">
+    <img src="./images/2.jpg" width="300" height="200" alt="">
+    <img src="./images/c2.jpg" width="300" height="200" alt="">
+    <img src="./images/c3.jpg" width="300" height="200" alt="">
+
+    <h2>スケジュール</h2>
+    <h3>9月11日（日）</h3>
+    <table class="schedule">
+      <tr>
+	<td>10:20</td>
+	<td>会場集合</td>
+      </tr>
+      <tr>
+	<td>10:30-10:40</td>
+	<td>オープニング</td>
+      </tr>
+
+      <tr>
+	<td>10:40-12:00</td>
+	<td>セッション1：（発表4件）
+	  <ul>
+	    <li>
+	      <a href="http://aclweb.org/anthology/N/N16/N16-1020.pdf">Black Holes and White Rabbits: Metaphor Identification with Visual Features</a>
+	      <div class="right">(Maharjan Sumit, <a href="http://www.slideshare.net/SumitMaharjan4/black-holes-and-white-rabbits-metaphor-identification-with-visual-features">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1171.pdf">Physical Causality of Action Verbs in Grounded Language Understanding</a>
+	      <div class="right">(包含, <a href="https://www.slideshare.net/secret/dByu9Jx99VDcNF">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/N/N16/N16-1089.pdf">Natural Language Communication with Robots</a>
+	      <div class="right">(能地宏, <a href="https://www.dropbox.com/s/dqeckpbqg9j2ofb/bisk2016.pdf?dl=0">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1224.pdf">Learning Language Games through Interaction</a>
+	      <div class="right">(海野裕也, <a href="http://www.slideshare.net/unnonouno/nlplearning-language-games-through-interactionsida-i-wang-percy-liang-christopher-d-manning">slide</a>)</div>
+	    </li>
+
+	  </ul>
+	</td>
+      </tr>
+
+      <tr>
+	<td>12:00-13:30</td>
+	<td>昼食</td>
+      </tr>
+
+      <tr>
+	<td>13:30-14:50</td>
+	<td>セッション2：（発表4件）
+	  <ul>
+	    <li>
+	      <a href="http://aclweb.org/anthology/N/N16/N16-1181.pdf">Learning to Compose Neural Networks for Question Answering</a>
+	    </li>
+	    <li>
+	      <a href="http://aclweb.org/anthology/D/D15/D16-1199.pdf">Semantically Conditioned LSTM-based Natural Language Generation for Spoken Dialogue Systems</a>
+	      <div class="right">(佐藤元紀, <a href="http://sato-motoki.com/pdf/nlp_reading_paper_2016_09_08.pdf">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/N/N16/N16-1024.pdf">Recurrent Neural Network Grammars</a>
+	      <div class="right">(外山洋太, <a href="http://tti-coin.jp/share/toyama_snlp2016.pdf">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1014.pdf">Pointing the Unknown Words</a>
+	      <div class="right">(小林颯介, <a href="http://www.slideshare.net/hytae/pointing-the-unknown-words">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/N/N16/N16-1082.pdf">Visualizing and Understanding Neural Models in NLP</a>
+	      <div class="right">(岡崎直観, <a href="http://www.slideshare.net/naoakiokazaki/visualizing-and-understanding-neural-models-in-nlp">slide</a>)</div>
+	    </li>
+
+	  </ul>
+	</td>
+      </tr>
+
+      <tr>
+	<td>14:50-15:10</td>
+	<td>休憩</td>
+      </tr>
+      
+      <tr>
+	<td>15:10-16:30</td>
+	<td>セッション3：（発表4件）
+	  <ul>
+	    <li>
+	      <a href="http://aclweb.org/anthology/Q/Q16/Q16-1020.pdf">Word Embeddings as Metric Recovery in Semantic Spaces</a>
+	      <div class="right">(横井祥, <a href="https://speakerdeck.com/eumesy/word-embeddings-as-metric-recovery-in-semantic-spaces">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/Q/Q16/Q16-1028.pdf">A Latent Variable Model Approach to PMI-based Word Embeddings</a>
+	      <div class="right">(持橋大地, <a href="http://chasen.org/~daiti-m/paper/SNLP8-latent.pdf">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/D/D15/D15-1116.pdf">Sarcastic or Not: Word Embeddings to Predict the Literal or Sarcastic Meaning of Words</a>
+	      <div class="right">(矢田竣太郎, <a href="http://www.slideshare.net/shuntaroy/8nlp-emnlp2015-guosh-et-al-sarcastic-or-not">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1018.pdf">Literal and Metaphorical Senses in Compositional Distributional Semantic Models</a>
+	      <div class="right">(瀧本洋喜, <a href="http://lr-www.pi.titech.ac.jp/~htakimoto/uploads/paper7c13cd8550e170aa2f08c09c5c7064d0/snlp2016_takimoto.pdf">slide</a>)</div>
+	    </li>
+
+	  </ul>
+	</td>
+      </tr>
+
+      <tr>
+	<td>16:30-16:50</td>
+	<td>休憩</td>
+      </tr>
+      
+      <tr>
+	<td>16:50-17:50</td>
+	<td>セッション4：（発表3件）
+	  <ul>
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1030.pdf">Connotation Frames: A Data-Driven Investigation</a>
+	      <div class="right">(乾健太郎, <a href="http://www.cl.ecei.tohoku.ac.jp/publications/2016/160911SNLP_inui.pdf">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/D/D15/D15-1038.pdf">Traversing Knowledge Graphs in Vector Space</a>
+	      <div class="right">(村岡雅康, <a href="https://ibm.box.com/s/npkgc72vpouted8v1gtpyaalgsncmrnx">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/D/D15/D15-1278.pdf">When Are Tree Structures Necessary for Deep Learning of Representations?</a>
+	      <div class="right">(辻村有輝, <a href="http://tti-coin.jp/share/tsujimura_snlp2016.pdf">slide</a>)</div>
+	    </li>
+
+	  </ul>
+	</td>
+      </tr>
+
+      <tr>
+	<td>18:00-</td>
+	<td>懇親会</td>
+      </tr>
+	  
+    </table>
+
+    <h3>9月12日（月）</h3>
+    <table class="schedule">
+      <tr>
+	<td>10:20</td>
+	<td>会場集合</td>
+      </tr>
+      <tr>
+	<td>10:30-10:40</td>
+	<td>オープニング</td>
+      </tr>
+
+      <tr>
+	<td>10:40-12:00</td>
+	<td>セッション5：（発表4件）
+	  <ul>
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1227.pdf">Multimodal Pivots for Image Caption Translation</a>
+	      <div class="right">(亀甲博貴, <a href="http://www.slideshare.net/HirotakaKameko/snlp2016-kameko">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/Q/Q16/Q16-1029.pdf">Optimizing Statistical Machine Translation for Text Simplification</a>
+	      <div class="right">(梶原智之, <a href="http://cl.sd.tmu.ac.jp/~kajiwara/snlp8.pdf">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://www.ijcai.org/Proceedings/16/Papers/522.pdf">Assessing Translation Ability through Vocabulary Ability Assessment</a>
+	    </li>
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1208.pdf">Grammatical Error Correction: Machine Translation and Classifiers</a>
+	      <div class="right">(江原遥, <a href="https://www.dropbox.com/s/h98ss3bk2lmx8ay/saisentan_ehara.pdf?dl=0">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1021.pdf">Metaphor Detection with Topic Transition, Emotion and Cognition in Context</a>
+	      <div class="right">(宮澤彬, <a href="http://pecorarista.com/assets/pdf/metaphor-detection-with-topic-transition.pdf">slide</a>)</div>
+	    </li>
+
+	  </ul>
+	</td>
+      </tr>
+
+      <tr>
+	<td>12:00-13:30</td>
+	<td>昼食</td>
+      </tr>
+
+      <tr>
+	<td>13:30-14:50</td>
+	<td>セッション6：（発表4件）
+	  <ul>
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1117.pdf">Neural Network-Based Model for Japanese Predicate Argument Structure Analysis</a>
+	      <div class="right">(牧諒亮, <a href="https://sites.google.com/site/titechmaki/snlp8_maki.pdf">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1228.pdf">Harnessing Deep Neural Networks with Logic Rules</a>
+	      <div class="right">(高瀬翔, <a href="http://www.slideshare.net/shotakase33/harnessing-deep-neural-networks-with-logic-rules">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/Q/Q16/Q16-1019.pdf">ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs</a>
+	      <div class="right">(小町守, <a href="http://www.slideshare.net/mamoruk/tacl2016-abcnn">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1223.pdf">A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task</a>
+	      <div class="right">(菅原朔, <a href="https://speakerdeck.com/penzant/snlp8-2016-09-12">slide</a>)</div>
+	    </li>
+
+	  </ul>
+	</td>
+      </tr>
+
+      <tr>
+	<td>14:50-15:10</td>
+	<td>休憩</td>
+      </tr>
+      
+      <tr>
+	<td>15:10-16:50</td>
+	<td>セッション7：（発表5件）
+	  <ul>
+	    <li>
+	      <a href="http://aclweb.org/anthology/N/N16/N16-1114.pdf">Learning Global Features for Coreference Resolution</a>
+	      <div class="right">(三輪誠, <a href="http://tti-coin.jp/share/miwa_snlp2016.pdf">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/P/P16/P16-1061.pdf">Improving Coreference Resolution by Learning Entity-Level Distributed Representations</a>
+	      <div class="right">(松林優一郎, <a href="http://www.slideshare.net/yuichirohmatsubayashi/improving-coreference-resolution-by-learning-entitylevel-distributed-representations">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/Q/Q15/Q15-1038.pdf">Large-Scale Information Extraction from Textual Definitions</a>
+	      <div class="right">(松田耕史, <a href="http://www.slideshare.net/koji_matsuda/largescale-information-extraction-from-textual-definitions-through-deep-syntactic-and-semantic-analysis-65784162">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/D/D15/D15-1081.pdf">Language and Domain Independent Entity Linking with Quantified Collective Validation</a>
+	      <div class="right">(周双双, <a href="http://www.slideshare.net/shuangshuangzhou9/language-and-domain-independent-entity-linking-with-quantified-collective-validation">slide</a>)</div>
+	    </li>
+
+	    <li>
+	      <a href="http://aclweb.org/anthology/N/N16/N16-1033.pdf">Joint Extraction of Events and Entities within a Document Context</a>
+	      <div class="right">(亀田尭宙, <a href="http://www.slideshare.net/cm3/joint-extraction-of-events-and-entities-within-a-document-context">slide</a>)</div>
+	    </li>
+
+	  </ul>
+	</td>
+      </tr>
+
+      <tr>
+	<td>16:50-17:00</td>
+	<td>クロージング</td>
+      </tr>
+	  
+      <tr>
+	<td>17:00</td>
+	<td>解散</td>
+      </tr>
+	  
+    </table>
+
+
+    <h2>今後の予定</h2>
+    <ul>
+      <li><s>8月16日（火）まで：「ぜひ読み会で聞きたい」論文を参加者全員で投票</s></li>
+      <li><s>8月24日（水）まで：上位の論文の中から読む論文を決定</s></li>
+    </ul>
+    詳細は追って連絡します。
+    
+    <h2>参加・発表要領</h2>
+    <p>
+      発表スライドおよびトークは日本語もしくは英語でご準備下さい。 発表１件あたりの時間は20分で、発表に12～15分、質疑応答・討論の時間に5～8分を想定しています。 議論活性化の観点から、発表は時間厳守でお願いします。発表時間は12分を推奨します。 聴講のみの参加の方も意欲的に議論にご参加ください。
+    </p>
+    <p>
+      今回からスライドは<b>原則公開</b>とする予定です。公開できない場合は例年通りパスワード付きの配布としますのでご相談ください。
+    </p>
+
+    <h2>参加者（<span id="num_participants"></span>名）</h2>
+    <h3>発表</h3>
+    <div id="participants_r"></div>
+    <h3>聴講</h3>
+    <div id="participants_n"></div>
+	    
+    <h2>実行委員会</h2>
+    <div id="committee">
+    </div>
+
+    <h2>過去の勉強会の様子</h2>
+    <ul>
+      <li><a href="http://www.logos.t.u-tokyo.ac.jp/snlp5/">第5回</a></li>
+      <li><a href="http://www.cl.ecei.tohoku.ac.jp/~y-matsu/snlp6/">第6回</a></li>
+      <li><a href="http://www.logos.t.u-tokyo.ac.jp/snlp7/">第7回</a></li>
+    </ul>
+  </body>
+</html>
